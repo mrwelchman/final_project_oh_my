@@ -8,13 +8,13 @@ h1 {
 }
 
 .card {
-	margin-left: 150px;
-	margin-right: 150px;
-	border-color: black;
+	margin-left: 200px;
+	margin-right: 200px;
+	border-color: fuchsia;
+	border-width: 3px;
 	background-color: lavender;
 }
 
-.btn {
-	background-color: fuchsia;
-	border-color: black;
+.container {
+	text-align: center;
 }

@@ -27,14 +27,8 @@
 	  		<div class="col-sm-6">
 	    		<div class="card text-center">
 	    			<div class="card-body">
-	        			<h5 class="card-title">pick a team</h5>
+	        			<h5 class="card-title">pick a home team</h5>
 	    				<p class="card-text">select a team using the dropdown below</p>
-		<!-- <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="home_team" data-bs-toggle="dropdown" aria-expanded="false">choose wisely...</a> -->
-		  <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-		    <li><a class="dropdown-item" href="#">Action</a></li>
-		    <li><a class="dropdown-item" href="#">Another action</a></li>
-		    <li><a class="dropdown-item" href="#">Something else here</a></li>
-		  </ul>	      -->
 	  					<select name=home_team id=home_team>choose wisely...</select>
 					</div>
 				</div>
@@ -42,14 +36,8 @@
 		  	<div class="col-sm-6">
 		    	<div class="card text-center">
 		      		<div class="card-body">
-		        		<h5 class="card-title">pick a team</h5>
+		        		<h5 class="card-title">pick a visiting team</h5>
 		    			<p class="card-text">select a team using the dropdown below</p>
-						<!-- <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="away_team" data-bs-toggle="dropdown" aria-expanded="false">choose wisely...</a> -->
-			  <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-			    <li><a class="dropdown-item" href="#">Action</a></li>
-			    <li><a class="dropdown-item" href="#">Another action</a></li>
-			    <li><a class="dropdown-item" href="#">Something else here</a></li>
-			  </ul>	  -->
 			  			<select name=away_team id=away_team>choose wisely...</select>
 		  			</div>
 		  		</div>
@@ -59,10 +47,15 @@
 	</div>
 	<div class="row">
 		<div class='col-sm-12'>
-			<h5>Result</h5>
-			<h5>{{ home }}</h5>
-			<h5>{{ away }}</h5>
-			<h5>{{ model_output }}</h5>
+			<div class="card text-center">
+				<div class="card-body">
+					<h5 class="card-title">result</h5>
+					<p class="card-text">if the number is positive, the home team wins</p>
+					<h5>{{ home }}</h5>
+					<h5>{{ away }}</h5>
+					<h5>{{ model_output }}</h5>
+				</div>
+			</div>	
 		</div>
 	</div>
 </div>    
