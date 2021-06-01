@@ -1,0 +1,20 @@
+body {
+	background-image: url('../images/court.jpg');
+	background-size: cover;
+}
+
+h1 {
+	color: fuchsia;
+}
+
+.card {
+	margin-left: 150px;
+	margin-right: 150px;
+	border-color: black;
+	background-color: lavender;
+}
+
+.btn {
+	background-color: fuchsia;
+	border-color: black;
+}
